@@ -12,7 +12,7 @@ Images are normalized. Then, using numpy, a mean image is calculated and display
 
 ![](./imgs/03.png)
 
-An InceptionV3 model is loaded from TensorFlow. Activations are obtained from this model. Predictions for these activations are then converted into a numpy array and printed.
+An InceptionV3 model is loaded from TensorFlow. Activations are obtained from this model. Predictions for these activations are then converted into a numpy array and printed. 'Head cabbage' is the most frequent prediction, probably because the venation of the leaves shown in the cyanotype are a common structure for plant life.
 
 ![](./imgs/04.png)
 
@@ -24,7 +24,7 @@ The extracted features are then reduced to two dimensions using PCA, t-SNE, and 
 
 ![](.imgs/06.png)
 
-Images for each point are visualized.
+Images for each point are visualized. One can roughly make out two clusters of images, with one focusing on the center of the cyanotypes wear the venation is dense and the other cluster collecting parts of the image that include the edges of the paper.
 
 ![](.imgs/07.png)
 
@@ -32,10 +32,10 @@ A grid is created spanning the range of values of the 2D projected features. The
 
 ![](.imgs/08.png)
 
-The resulting grid is displayed with the assigned images.
+The resulting grid is displayed with the assigned images. The clusters a little more legible now. With cyanotypes, darker images often correspond to a longer exposure time and lighter images the opposite; the length of exposure is also more observable in this arrangement, with the images getting darker from left to right and bottom to top.
 
 ![](.imgs/09.png)
 
-Lastly, seaborn is used to plot a bivariate distribution of the features.
+Lastly, seaborn is used to plot a bivariate distribution of the features. 
 
 ![](.imgs/10.png)
