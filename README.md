@@ -2,7 +2,7 @@ I spent a lot of time making cyanotypes during COVID-19. Cyanotypes are photogra
 
 The cyanotypes used in this project were made with leaves from an orange tree.
 
-![Cyanotype image of a leaf](./imgs/01.jpg)
+![Cyanotype image of a leaf](./imgs/01.png)
 
 Images are first loaded in from Google Drive and displayed.
 
