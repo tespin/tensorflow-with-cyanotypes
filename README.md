@@ -1,6 +1,6 @@
-I spent a lot of time making cyanotypes during COVID-19. Cyanotypes are photographic images made by coating a paper with an iron mixture and exposing it to UV light. The paper is then bathed in water and turns a rich blue as it oxidizes. Any opaque material left on the paper will appear as a white outline. 
+Cyanotypes are photographic images made by coating a paper with an iron mixture and exposing it to UV light. The paper is then bathed in water and turns a rich blue as it oxidizes. Any opaque material left on the paper will appear as a white outline. 
 
-The cyanotypes used in this project were made with leaves from an orange tree.
+I spent a lot of time making cyanotypes during COVID-19. I used those images as a dataset to explore machine learning approaches to images using TensorFlow and Python.
 
 ![Cyanotype image of a leaf](./imgs/01.png)
 
